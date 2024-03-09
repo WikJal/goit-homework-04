@@ -4,12 +4,14 @@
 }
 
 .header {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .header-trzy {
   font-weight: 500;
@@ -89,6 +91,7 @@ body {
   background-position: center;
   max-width: 1440px;
   background-size: cover;
+  margin: 0 auto;
 }
 .sekcja-dwa {
   padding: 120px 0;
@@ -99,7 +102,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  margin: 0 auto;
   letter-spacing: 0.04em;
+  line-height: 1.5;
   color: #ffffff;
   cursor: pointer;
   display: block;
