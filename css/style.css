@@ -79,6 +79,14 @@ body {
 .sekcja {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .sekcja-dwa {
   padding: 120px 0;
@@ -88,7 +96,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -97,6 +105,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover .button:focus .button:active {
   background-color: #404bbf;
