@@ -1,0 +1,260 @@
+* *::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+}
+.header-trzy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.pee {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+
+.header-dwa {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: flex;
+}
+.logo-style {
+  font-family: "Raleway", sans-serif;
+  font-weight: Medium;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+.logo-style-dwa {
+  color: #f4f4fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background-color: #ffffff;
+  color: #434455;
+}
+.address {
+  font-style: normal;
+}
+.sekcja {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+.sekcja-dwa {
+  padding: 120px 0;
+}
+.button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
+}
+.link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 24px 0;
+}
+.link-addres {
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
+.link-addres:hover {
+  color: #404bbf;
+}
+.link-addres:focus {
+  color: #404bbf;
+}
+.sekcja-trzy {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.sekcja-cztery {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.lis {
+  background-color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.lis-dwa {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.lis:last-child {
+  margin-right: 0;
+}
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.pepa {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+  margin: 24px 0;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.menu-nav {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.li-dwa {
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+
+  gap: 40px;
+}
+.li-trzy {
+  width: calc((100% - 48px) / 3);
+}
+
+.ul-list {
+  display: flex;
+  gap: 40px;
+}
+.ul-list-dwa {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+.ul-list-trzy {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+.ul-list:last-child {
+  margin-right: 0;
+}
+.logo-footer {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.personal {
+  padding: 32px 0px;
+}
+
+.appi {
+  padding: 32px 16px 32px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
