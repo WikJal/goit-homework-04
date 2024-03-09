@@ -289,3 +289,21 @@ ul {
   left: 0;
   bottom: -1px;
 }
+.icon-box {
+	background: #f4f4fd;
+	border: 1px solid #8e8f99;
+	border-radius: 4px;
+	width: 264px;
+	height: 112px;
+	margin-bottom: 8px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icon use {
+	z-index: 999;
+	position: absolute;
+	top: 24px;
+	left: 100px;
+}
