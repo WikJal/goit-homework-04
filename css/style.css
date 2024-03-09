@@ -229,6 +229,7 @@ ul {
   gap: 24px;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 .ul-list-trzy {
   display: flex;
