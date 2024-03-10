@@ -377,6 +377,7 @@ ul {
 .footer-info {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 .footer-social {
   display: flex;
