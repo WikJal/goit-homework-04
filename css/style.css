@@ -172,9 +172,12 @@ body {
 }
 .pepa {
   color: #f4f4fd;
-  line-height: 1.5;
+  flex-wrap: wrap;
+  font-size: 16px;
   letter-spacing: 0.02em;
-  display: block;
+  line-height: 1.5;
+  text-align: left;
+  width: 264px;
 }
 a {
   text-decoration: none;
@@ -374,4 +377,24 @@ ul {
 .footer-info {
   display: flex;
   align-items: baseline;
+}
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+.footer-social p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
