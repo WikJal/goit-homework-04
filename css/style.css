@@ -324,10 +324,12 @@ ul {
   gap: 24px;
   margin: 9px 16px 0px 16px;
   width: 40px;
+  align-items: center;
 }
 .member-socials-list-element {
   width: 40px;
   height: 40px;
+  gap: 24px;
 }
 .member-socials-link {
   width: 100%;
@@ -346,24 +348,25 @@ ul {
 .member-socials-link-icon {
   fill: #f4f4fd;
 }
-.section-image{
+.section-image {
   position: relative;
-overflow: hidden;}
-.section-image-overlay{position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transform: translateY(100%);
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	background-color: #4d5ae5;
-	color: #f4f4fd;
-	padding: 40px 32px;
-	font-family: Roboto;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0.02em;
-	text-align: left;
-
+  overflow: hidden;
+}
+.section-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
