@@ -378,7 +378,7 @@ ul {
   margin-right: 120px;
 }
 .footer-social {
-  display: flex;
+ 
   gap: 16px;
 }
 .footer-social p {
@@ -394,6 +394,7 @@ ul {
 }
 .footer-social-list {
   display: flex;
+  
   gap: 16px;
 }
 .footer-social-list-el {
@@ -424,4 +425,7 @@ ul {
 .footer-info .logo-footer {
   margin-bottom: 16px;
   display: flex;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
