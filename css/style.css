@@ -33,11 +33,14 @@ img {
 
 .header-dwa {
   color: #2e2f42;
-  margin: 0 auto;
   margin-bottom: 72px;
   padding: 0 auto;
   text-align: center;
   text-transform: capitalize;
+  height: 40px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 .logo {
   font-weight: 700;
@@ -140,6 +143,7 @@ body {
 }
 .sekcja-trzy {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .sekcja-cztery {
@@ -212,6 +216,7 @@ ul {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   text-align: center;
+  width: calc((100% - 72px) / 4);
 }
 .li-trzy {
   width: calc((100% - 48px) / 3);
@@ -231,9 +236,8 @@ ul {
 .ul-list-dwa {
   display: flex;
   gap: 24px;
-  margin: 0;
+
   padding: 0;
-  flex-wrap: wrap;
 }
 .ul-list-trzy {
   display: flex;
@@ -316,7 +320,9 @@ ul {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin: 9px 16px 0px 16px;
+  flex-direction: row;
+  align-items: center;
+  
 }
 .member-socials-list-element {
   width: 40px;
