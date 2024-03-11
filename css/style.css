@@ -14,10 +14,6 @@
   margin-bottom: 48px;
 }
 .header-trzy {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
@@ -29,7 +25,7 @@ img {
 }
 .pee {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: ;
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
@@ -143,7 +139,6 @@ body {
 }
 .sekcja-trzy {
   background-color: #f4f4fd;
-  padding: 120px 0;
 }
 
 .sekcja-cztery {
@@ -211,13 +206,11 @@ ul {
   margin: 0 auto;
 }
 .li-dwa {
-  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   text-align: center;
-  gap: 40px;
 }
 .li-trzy {
   width: calc((100% - 48px) / 3);
@@ -323,8 +316,6 @@ ul {
   justify-content: center;
   gap: 24px;
   margin: 9px 16px 0px 16px;
-  width: 40px;
-  align-items: center;
 }
 .member-socials-list-element {
   width: 40px;
