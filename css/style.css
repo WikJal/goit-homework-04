@@ -16,7 +16,7 @@
 .header-trzy {
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 img {
   display: block;
@@ -24,6 +24,13 @@ img {
   height: auto;
 }
 .pee {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: left;
+}
+.pee-1 {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -41,6 +48,11 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+}
+.header-trzy-name {
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .logo {
   font-weight: 700;
@@ -322,7 +334,6 @@ ul {
   gap: 24px;
   flex-direction: row;
   align-items: center;
-  
 }
 .member-socials-list-element {
   width: 40px;
@@ -376,9 +387,9 @@ ul {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
+  
 }
 .footer-social {
- 
   gap: 16px;
 }
 .footer-social p {
@@ -394,7 +405,7 @@ ul {
 }
 .footer-social-list {
   display: flex;
-  
+
   gap: 16px;
 }
 .footer-social-list-el {
@@ -426,8 +437,14 @@ ul {
   margin-bottom: 16px;
   display: flex;
 }
-h1, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   margin: 0;
   padding: 0;
-  
 }
