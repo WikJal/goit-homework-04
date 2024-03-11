@@ -22,7 +22,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  
 }
 .pee {
   font-size: 16px;
@@ -414,4 +413,9 @@ ul {
   fill: #f4f4fd;
   width: 24px;
   height: 24px;
+}
+
+.footer-info .logo-footer {
+  margin-bottom: 16px;
+  display: flex;
 }
